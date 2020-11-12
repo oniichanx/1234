@@ -543,7 +543,7 @@
   background-color: transparent;
 }
 
-/*
+
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx:before {
   content: "";
   border-radius: 50%;
@@ -555,7 +555,7 @@
   width: 100%;
   transition: 0.2s ease;
 }
-*/
+
 
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx.selected-bZ3Lue:before {
   border-radius: 30%;
@@ -1786,38 +1786,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 
 
 
-/*Home-icon*/
 
- /* Change Home Icon (uses base64 encoding) */
-.homeIcon-tEMBK1 > path, .homeIcon-tEMBK1,
-.homeIcon-tEMBK1 > path:hover, .homeIcon-tEMBK1:hover{
-  opacity: 0.0;
-}
-.childWrapper-anI2G9{
-  background: url(https://cdn.discordapp.com/attachments/608698140702408782/610924328678064128/image0.png) 350% 20%/cover!important;
-}
-
-
-/*Home-icon V2*/
-/*
-[name='Nova_Discord'] {
-    color: transparent;
-    background-size: 100%;
-    background-image: url('https://media.discordapp.net/attachments/608698140702408782/614514247837286400/image0.png?width=267&height=475');
-}
-*/
-
-
-.titleBar-AC4pGV:after {
-    content: "";
-    pointer-events: none !important;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(var(--vtransparencycolor),calc((var(--vtransparencyalpha) * 3) + var(--vguildchanneltransparency))) !important;
-}
 
 
 
@@ -3095,10 +3064,12 @@ html:not(.platform-win) .theme-light .footer-3rDWdC{
 .homeIcon-tEMBK1 > path:hover, .homeIcon-tEMBK1:hover{
   opacity: 0.0;
 }
+
+/*
 .childWrapper-anI2G9{
   background: url(https://media.giphy.com/media/kBlaBqkV2cZ8TfgLaq/giphy.gif) 350% 20%/cover!important;
 }
-
+*/
 
 /*Home-icon V2*/
 /*
