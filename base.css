@@ -4895,3 +4895,158 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
   background-color: transparent;
   color: rgb(26,26,26);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+svg.sliderclass svg{
+display:none;
+}
+
+/*Remove Emoji*/
+/*
+.buttonContainer-28fw2U:nth-of-type(2) {display: none;}
+*/
+
+
+/* Blur account email and Phone Number */
+
+.fieldList-21DyL8 > div > div > div {
+    filter: blur(5px);
+    transition: all 0.35s;
+}
+
+.fieldList-21DyL8:hover > div > div > div {
+    filter: blur(0px);
+    transition: all 0.35s ease-in;
+}
+
+
+.marginTop40-i-78cZ .da-marginTop40 > div:last-child > div {
+    filter: blur(5px);
+    transition: all 0.35s ease-in;
+
+}
+
+.marginTop40-i-78cZ .da-marginTop40:hover > div > div {
+    filter: blur(0px);
+    transition: all 0.35s ease-in;
+}
+
+.removeButton-3vophT {
+  filter: blur(5px);
+  transition: all 0.7s;
+}
+
+.removeButton-3vophT:hover {
+  filter: blur(0px);
+  transition: all 0.7s;
+}
+
+
+
+
+/*
+// Default
+#app-mount,
+.title-3sZWYQ,
+.modeDefault-3a2Ph1,
+.container-1r6BKw,
+.titleBar-AC4pGV {
+    cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Normal_Select_v2.cur"),
+        default !important;
+}
+// Text
+.timestamp-3ZCmNB.latin24CompactTimeStamp-2V7XIQ,
+.searchBar-3dMhjb,
+.contents-2mQqc9,
+textarea,
+.textAreaSlate-1ZzRVj div div,
+input {
+    cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Text_Select_v2.cur"),
+        default !important;
+}
+// Pointer
+a,
+button,
+.folder-21wGz3,
+.css-gvi9bl-control,
+*/
+
+
+
+
+.containerDefault-3GGEv_ {
+    padding: 0px;
+}
+
+.clickable-18m--O {
+    background-color: var(--background-secondary-alt);
+    height: 20px;
+    width: 220px;
+    bottom: -8px;
+    left: 10px;
+    margin-bottom: 12px;
+    margin-top: -6px;
+}
+
+.dots-3Bkt3k {
+   color: lime;
+}
+
+
+/*Top Server Button*/
+.clickable-2ap7je .header-2o-2hj:hover, .selected-WP3kCM .header-2o-2hj
+
+/*Categories*/
+.clickable-18m--O
+
+.modeSelected-1zApJ_ .content-3at_AU
+
+/*Channel Selected*/
+.modeSelected-1zApJ_ .content-3at_AU
+
+/*Channel Hover*/
+.listDefault-2y5Z9D .clickable-23RaYz:active .content-3xS9Lh, .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh, .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh
+
+/*Unread Channels*/
+#app-mount .wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU .icon-1_QxNX,
+#app-mount .wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU .name-3_Dsmg
+
+/*Muted Channels*/
+#app-mount .wrapper-1ucjTd.modeMuted-3osy7j .content-3at_AU .icon-1_QxNX,
+#app-mount .wrapper-1ucjTd.modeMuted-3osy7j .content-3at_AU .name-3_Dsmg
