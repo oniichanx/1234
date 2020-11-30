@@ -1,0 +1,17 @@
+UBLOCK facebook ads/sponsored/suggested
+
+facebook.com##[id^=hyperfeed_story_id_] .userContentWrapper div:has-text(/Suggested Events|Suggested for You/)
+facebook.com##div[id^=hyperfeed_story_id_] .userContentWrapper div:has-text(Suggested for You)
+facebook.com##div[id^=hyperfeed_story_id_] .userContentWrapper div:has-text(Suggested Events)
+facebook.com##[data-pagelet^="FeedUnit_"]:has([href^="/ads/about/"])
+facebook.com##div[data-pagelet*="FeedUnit"]:has(span[class] + [role*="n"] > span > span + span)
+facebook.com##[id^="hyperfeed_story_id_"]:has([data-testid="story-subtitle"][role="link"])
+
+facebook.com##[id^=hyperfeed_story_id_] .userContentWrapper div:has-text(/Suggested Events|Suggested for You/)
+
+facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role^=button]:has(> span > span:matches-css(position: relative):has-text(S)))
+
+facebook.com##div[data-pagelet^="VideoChatHomeUnit"]
+
+facebook.com##div[data-pagelet^="Stories"]
+facebook.com##div[data-pagelet*="FeedUnit"]:has(div:not([class]):not([id]):empty ~ div:not([class]):not([id]) > div:not([class]):not([id]) > div:not([class]):not([id]):first-child:has(span[dir="auto"]:only-child) + div:not([class]):not([id]) + div:not([class]):not([id]) + div:not([class]):not([id]):last-child)
