@@ -106,7 +106,7 @@
   --discord-spotify: 29,185,84;
   --discord-twitch: 89,54,149;
   --discord-xbox: 16,124,16;
-  --version: "Frosted Glass 2.0.6";
+  --version: "test v2 2.0.7";
 }
 
 .theme-dark {
@@ -262,10 +262,10 @@
   text-align: center;
   font-weight: 600;
 }
-#app-mount .tooltipBlack-PPG47z {
+#app-mount .tooltipPrimary-1d1ph4 {
   background: var(--gradient);
 }
-#app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
+#app-mount .tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {
   display: none;
 }
 
@@ -290,6 +290,7 @@
 #app-mount .autocompleteInner-zh20B_,
 #app-mount .container-3ayLPN,
 #app-mount .container-enaOkj,
+#app-mount .container-2dqNWc,
 #app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG),
 #app-mount .emojiPicker-3PwZFl,
 #app-mount .messagesPopoutWrap-1MQ1bW,
@@ -313,6 +314,7 @@
 #app-mount .autocompleteInner-zh20B_:before,
 #app-mount .container-3ayLPN:before,
 #app-mount .container-enaOkj:before,
+#app-mount .container-2dqNWc:before,
 #app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG):before,
 #app-mount .emojiPicker-3PwZFl:before,
 #app-mount .messagesPopoutWrap-1MQ1bW:before,
@@ -546,8 +548,6 @@
   background: var(--gradient);
   background-color: transparent;
 }
-
-
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx:before {
   content: "";
   border-radius: 50%;
@@ -559,8 +559,6 @@
   width: 100%;
   transition: 0.2s ease;
 }
-
-
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx.selected-bZ3Lue:before {
   border-radius: 30%;
 }
@@ -800,7 +798,6 @@
   background: transparent;
 }
 
-/*
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md {
   background: var(--gradient);
 }
@@ -818,7 +815,6 @@
 #app-mount .member-3-YXUe.selected-aXhQR6 .premiumIcon-1rDbWQ {
   color: var(--text-normal);
 }
-*/
 
 .colorDefault-2K3EoJ.focused-3afm-j,
 .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
@@ -1071,12 +1067,12 @@
   height: auto;
   position: static;
 }
-#app-mount .tertiary-aMXF0g,
-#app-mount .item-PXvHYJ.selected-3s45Ha {
+#app-mount .channelHeader-3Gd2xq .tertiary-aMXF0g,
+#app-mount .channelHeader-3Gd2xq .item-PXvHYJ.selected-3s45Ha {
   background: var(--white);
 }
-#app-mount .tertiary-aMXF0g:hover,
-#app-mount .item-PXvHYJ.selected-3s45Ha:hover {
+#app-mount .channelHeader-3Gd2xq .tertiary-aMXF0g:hover,
+#app-mount .channelHeader-3Gd2xq .item-PXvHYJ.selected-3s45Ha:hover {
   background: var(--white-double);
 }
 #app-mount .container-3iAQ-0 {
@@ -1333,9 +1329,6 @@
   background-color: rgba(0, 0, 0, var(--left-brightness));
 }
 #app-mount [aria-label*=SETTINGS] .contentRegionScroller-26nc1e {
-  background-color: rgba(0, 0, 0, var(--middle-brightness));
-}
-#app-mount [aria-label*=SETTINGS] .customScroller-26gWhv {
   background-color: rgba(0, 0, 0, var(--middle-brightness));
 }
 #app-mount [aria-label*=SETTINGS] .multiInput-1e2xJ7 .input-cIJ7To {
