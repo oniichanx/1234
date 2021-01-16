@@ -798,12 +798,16 @@
   background: transparent;
 }
 
+/*
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md {
   background: var(--gradient);
 }
 #app-mount .member-3-YXUe.selected-aXhQR6 .roleColor-rz2vM0 {
   color: var(--text-normal) !important;
 }
+*/
+
+
 #app-mount .member-3-YXUe.selected-aXhQR6 .botTagRegular-2HEhHi {
   background: var(--text-normal);
   color: rgb(var(--gradient-primary));
