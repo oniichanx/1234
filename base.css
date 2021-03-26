@@ -82,8 +82,9 @@
 
 
 :root {
+  --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
-  --TB-position-top: calc(var(--window-padding));
+  --TB-position-top: var(--TB-top, var(--window-padding));
   --TB-position-right: var(--window-padding);
   --tint: rgba(var(--tint-colour), var(--tint-brightness));
   --white-half: rgba(255,255,255,0.025);
@@ -106,7 +107,7 @@
   --discord-spotify: 29,185,84;
   --discord-twitch: 89,54,149;
   --discord-xbox: 16,124,16;
-  --version: "test v2 2.0.7";
+  --version: "Frosted Glass 2.0.8";
 }
 
 .theme-dark {
@@ -529,21 +530,23 @@
   background: rgba(var(--discord-twitch), 0.6);
 }
 
-#app-mount .guilds-1SWlCJ.wrapper-1Rf91z {
+#app-mount .guilds-1SWlCJ {
   background-color: transparent;
 }
-#app-mount .guilds-1SWlCJ.wrapper-1Rf91z .scroller-2TZvBN {
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
   background-color: rgba(0, 0, 0, var(--serverlist-brightness));
 }
-#app-mount .guilds-1SWlCJ.wrapper-1Rf91z .scroller-2TZvBN::-webkit-scrollbar {
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih::-webkit-scrollbar {
   display: none;
 }
-#app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd- {
+
+#app-mount .guilds-1SWlCJ [class*=expandedFolderBackground] {
   background: var(--white);
 }
-#app-mount .guilds-1SWlCJ .folder-21wGz3 {
+#app-mount .guilds-1SWlCJ [class*=folder] {
   background: transparent;
 }
+
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .childWrapper-anI2G9 {
   background: var(--gradient);
   background-color: transparent;
@@ -574,11 +577,11 @@
 #app-mount .guilds-1SWlCJ .acronym-2mOFsV:hover {
   background: var(--white-double);
 }
-#app-mount .guilds-1SWlCJ .circleIconButton-jET_ig {
+#app-mount .guilds-1SWlCJ [class*=circleIconButton] {
   background: var(--white);
   color: rgb(var(--gradient-primary));
 }
-#app-mount .guilds-1SWlCJ .circleIconButton-jET_ig.selected-ugP_am, #app-mount .guilds-1SWlCJ .circleIconButton-jET_ig:hover {
+#app-mount .guilds-1SWlCJ [class*=circleIconButton].selected-ugP_am, #app-mount .guilds-1SWlCJ [class*=circleIconButton]:hover {
   background: var(--white-double);
   color: var(--text-normal);
 }
@@ -798,6 +801,8 @@
   background: transparent;
 }
 
+
+
 /*
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md {
   background: var(--gradient);
@@ -811,6 +816,7 @@
   margin-top: 0;
 }
 */
+
 
 #app-mount .member-3-YXUe.selected-aXhQR6 .botText-1526X_ {
   font-weight: 900;
@@ -1344,9 +1350,6 @@
 #app-mount [aria-label*=SETTINGS] .contentRegionScroller-26nc1e {
   background-color: rgba(0, 0, 0, var(--middle-brightness));
 }
-#app-mount [aria-label*=SETTINGS] .customScroller-26gWhv {
-  background-color: rgba(0, 0, 0, var(--middle-brightness));
-}
 #app-mount [aria-label*=SETTINGS] .multiInput-1e2xJ7 .input-cIJ7To {
   background: transparent;
 }
@@ -1606,7 +1609,7 @@ html.platform-osx .scroller-2TZvBN {
   to {
     opacity: 1;
     transform: translateY(0);
-  }member-3-YXUe
+  }
 }
 
 
